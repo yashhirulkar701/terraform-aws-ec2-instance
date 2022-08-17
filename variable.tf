@@ -18,5 +18,10 @@ variable "key_name" {
   type = string
 }
 
+variable "tags" {
+  type = string
+  default = "my_instance"	
+}
+
 
 
